@@ -24,7 +24,8 @@ try:
 [3] ===== Netflix CC
 [4] ===== CC-checker(CreditCard-Checker)
 [0] ===== Exit
-[000] === Shutdown... 
+[000] === Shutdown...
+-h or help to show this msg
 |-------------------------------|
 |===============================|
 |                               |""")
@@ -85,6 +86,8 @@ try:
 			elif ui == '0':
 				os.system("clear")
 				break
+			elif ui =='-h' or ui == 'help':
+				menu()
 
 			else:
 				os.system(ui)
