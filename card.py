@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 import random, time, os
 
+#sololearn bin = 5235915354xxxxxx
 try:
 	from colorama import Fore
 	from credit_card_checker import CreditCardChecker as ccc
